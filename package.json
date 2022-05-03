@@ -1,0 +1,14 @@
+{
+  "name": "get-weibo-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.2.3"
+  }
+}
