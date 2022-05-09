@@ -10,17 +10,25 @@ Information from Weibo will be stored in the MySQL table.
 
 ## MySQL table setting
 
-| Column              | Information                           |
-| ------------------- | ------------------------------------- |
-| id                  | INT PK NN UQ AI                       |
-| create_time         | TIMESTAMP CURRENT_TIMESTAMP (Default) |
-| followers_count     | INT                                   |
-| followers_count_str | VARCHAR(45)                           |
-| friends_count       | INT                                   |
-| statuses_count      | INT                                   |
-| detail1             | VARCHAR(45)                           |
-| detail2             | VARCHAR(45)                           |
-| chaohua             | VARCHAR(45)                           |
+| Column                     | Information                           |
+| -------------------------- | ------------------------------------- |
+| id                         | INT PK NN UQ AI                       |
+| create_time                | TIMESTAMP CURRENT_TIMESTAMP (Default) |
+| followers_count            | INT                                   |
+| friend_count               | INT                                   |
+| weibo_count                | INT                                   |
+| weibo_song                 | VARCHAR(45)                           |
+| weibo_yesterday            | VARCHAR(45)                           |
+| weibo_video                | VARCHAR(45)                           |
+| chaohua_yuedu              | VARCHAR(20)                           |
+| chaohua_tiezi              | INT                                   |
+| chaohua_fensi              | INT                                   |
+| bili_channel_archive_count | VARCHAR(10)                           |
+| bili_channel_view_count    | VARCHAR(10)                           |
+| bili_channel_feature_count | INT                                   |
+| bili_channel_subscription  | INT                                   |
+| douyin_ch_user_count       | INT                                   |
+| douyin_ch_view_count       | BIGINT                                |
 
 ## Example
 
